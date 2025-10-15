@@ -1,0 +1,142 @@
+body {
+     font-family: 'Times New Roman', sans-serif;
+}
+#title {background-color:  #ff4c68;
+      color: #fff;
+}
+
+#cta { background-color:  #ff4c68;
+    color: #fff; padding: 7% 15%; }
+.cta-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+/* Footer Section */
+#footer { padding: 7% 15%;
+         text-align: center;}
+
+.social-icon {
+    margin: 20px 10px;
+}
+    h1 {
+    font-family: "Times New Roman-Black", sans-serif; 
+    
+    font-size: 3.5rem; 
+    line-height: 1.5;}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Times New Roman-Black';
+}
+
+p {
+    color:#8f8f8f
+}
+
+.container-fluid {
+        padding: 3% 15% 17%;
+    }
+
+    /* Navigation Bar */
+
+.navbar { 
+        padding: 0 0 4.5rem;
+    } 
+
+.navbar-brand {
+        font-family: Georgia;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+.nav-item {
+        padding: 0 18px;
+    }
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman' ;
+}
+
+/* Download button */
+.but{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 30%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+
+/* Features box */
+ #features { 
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.icon {
+    color: #ef8172 ;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color:#ff4c68;
+}
+
+    /* Testimonial Section */
+    #testimonials { 
+        text-align: center;
+        background-color: #ef8172;
+        color: #fff;
+
+
+    }
+.test{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding:7% 15%;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center
+        ;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);}
+}
+.new {
+  padding:  
+
+}
+/* class="carousel slide" data ride=carousel data pause="hover" */
